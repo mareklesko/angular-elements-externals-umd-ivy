@@ -1,6 +1,10 @@
 const webpack = require('webpack');
+const HtmlWebpackExcludeAssetsPlugin = require('html-webpack-exclude-assets-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+    "entry": "./src/entry.js",
+   
     "externals": {
         "rxjs": "rxjs",
         "@angular/core": "ng.core",

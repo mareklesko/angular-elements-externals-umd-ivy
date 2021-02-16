@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+.second-element {
+    background-color: gray;
+    text-align: center;
+    transition: color 0.33s;
+    &:hover {
+        color: green;
+    }
+}
+my-element {
+    width: 300px;
+    transition: background-color 0.33s;
+    &:hover {
+        background-color: green;
+    }
+}

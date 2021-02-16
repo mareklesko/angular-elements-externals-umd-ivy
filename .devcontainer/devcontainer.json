@@ -19,7 +19,8 @@
 	"extensions": [
 		"dbaeumer.vscode-eslint",
 		"mutantdino.resourcemonitor",
-		"ritwickdey.liveserver"
+		"ritwickdey.liveserver",
+		"sibiraj-s.vscode-scss-formatter"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

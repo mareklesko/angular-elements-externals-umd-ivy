@@ -8,6 +8,13 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
+            "url": "http://localhost:5500",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Launch Chrome against NG serve",
             "url": "http://localhost:4200",
             "webRoot": "${workspaceFolder}"
         }
