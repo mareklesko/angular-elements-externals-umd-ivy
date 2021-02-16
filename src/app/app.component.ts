@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   // selector: 'my-element',
@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  @Output('button-click') buttonClick = new EventEmitter();
   title = 'webcomp';
+  onclick() {
+    this.buttonClick.emit();
+  }
 }

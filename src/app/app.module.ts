@@ -25,5 +25,4 @@ export class AppModule {
     const Elm = createCustomElement(AppComponent, { injector: this.injector });
     customElements.define('my-element', Elm);
   }
-
 }
