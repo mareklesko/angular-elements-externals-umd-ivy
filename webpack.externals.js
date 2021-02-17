@@ -3,8 +3,13 @@ const HtmlWebpackExcludeAssetsPlugin = require('html-webpack-exclude-assets-plug
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    "entry": "./src/entry.js",
-   
+    // "entry": "./src/entry.js",
+    "entry": {
+        // "main": "./src/entry.js",
+        "my-component": "./src/app/app.module",
+        "second-component": "./src/app/second.module"
+    },
+
     "externals": {
         "rxjs": "rxjs",
         "@angular/core": "ng.core",
